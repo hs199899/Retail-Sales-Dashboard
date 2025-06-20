@@ -38,6 +38,17 @@ The goal is to clean, transform, and explore Walmart sales data to extract meani
 
 python data_analysis.py
 
+##Key Insights Summary
+Monthly sales steadily increased from 2014 through 2017, with peaks during holiday seasons.
+
+The West region had the highest profit margins; the South region showed the lowest profitability.
+
+A moderate negative correlation exists between discount and profit, indicating that higher discounts tend to reduce profit.
+
+The top 10 customers contribute significantly to total sales, showing a concentration of revenue.
+
+##Repository Structure
+
 /data/           ← Excel dataset files  
 /scripts/        ← Python scripts for analysis  
 /charts/         ← Saved visualizations (optional) 
