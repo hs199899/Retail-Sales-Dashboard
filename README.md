@@ -1,28 +1,43 @@
-# Retail-Sales-Dashboard
-Excel-based data analytics project with dashboard and KPIs
-This project uses Excel to analyze and visualize retail sales data from 2014–2017.
+# Walmart Sales Analysis
 
-✅ Key Features:
-Cleaned and transformed over 9,000 rows of sales data
+This project analyzes Walmart sales data from 2014 to 2017 using both Excel and Python to uncover sales trends, regional performance, discount impact, and customer insights.
 
-Created PivotTables to analyze:
+---
 
-Sales by month and region
+## Project Overview
 
-Top-selling products
+The goal is to clean, transform, and explore Walmart sales data to extract meaningful business insights. The analysis includes monthly sales trends, profit comparisons by region, the effect of discounts on profit, and identification of top customers.
 
-Profit trends
+---
 
-Built a slicer-enabled interactive dashboard
+## What’s Included
 
-Displayed KPIs: Total Sales, Total Orders, Average Profit
+### Excel Analysis
+- Data cleaning: removing blank rows, fixing date formats
+- Pivot tables for monthly sales, regional sales, and profit trends
+- Interactive charts and dashboards with slicers for dynamic filtering
 
-📂 Tools Used:
-Microsoft Excel
+### Python Analysis
+- Data loading and cleaning using Pandas
+- Date parsing and creating new columns like Month-Year and Year
+- Grouping and aggregation of sales, profits, and discounts
+- Correlation analysis between discount and profit
+- Visualizations using Matplotlib:  
+  - Monthly sales trends  
+  - Scatter plot of Discount vs Profit  
+  - Bar chart of Top 10 Customers by Sales
 
-PivotTables & Charts
+---
 
-Slicers
+## How to Run
 
-Data Cleaning functions
+1. Ensure the Excel file `data.xlsx` is located in the `/data` folder.
+2. Install required Python packages:
 
+   pip install pandas matplotlib
+
+python data_analysis.py
+
+/data/           ← Excel dataset files  
+/scripts/        ← Python scripts for analysis  
+/charts/         ← Saved visualizations (optional) 
